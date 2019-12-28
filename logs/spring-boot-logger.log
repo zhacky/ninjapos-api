@@ -1,0 +1,698 @@
+2019-10-27 04:30:08,547 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting NinjaposApplication on work with PID 4213 (/home/zhack/Repository/POS/NinjaPOS/target/classes started by zhack in /home/zhack/Repository/POS/NinjaPOS)
+2019-10-27 04:30:08,555 INFO org.springframework.boot.SpringApplication [restartedMain] The following profiles are active: development
+2019-10-27 04:30:10,378 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-27 04:30:10,472 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 83ms. Found 4 repository interfaces.
+2019-10-27 04:30:10,925 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a6aff8f7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-27 04:30:10,987 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$3f5dc131] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-27 04:30:10,995 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-27 04:30:10,998 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@251a079f' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-27 04:30:11,005 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$643263e3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-27 04:30:11,011 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-27 04:30:11,368 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2019-10-27 04:30:11,385 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8081"]
+2019-10-27 04:30:11,401 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2019-10-27 04:30:11,402 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-10-27 04:30:11,501 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2019-10-27 04:30:11,502 DEBUG org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-10-27 04:30:11,502 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2798 ms
+2019-10-27 04:30:11,761 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2019-10-27 04:30:12,100 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2019-10-27 04:30:12,153 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-27 04:30:12,247 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate Core {5.3.11.Final}
+2019-10-27 04:30:12,251 INFO org.hibernate.cfg.Environment [restartedMain] HHH000205: Loaded properties from resource hibernate.properties: {hibernate.bytecode.use_reflection_optimizer=false}
+2019-10-27 04:30:12,434 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-27 04:30:12,564 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-27 04:30:13,641 INFO org.hibernate.tool.schema.internal.SchemaCreatorImpl [restartedMain] HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@320583fc'
+2019-10-27 04:30:13,645 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-27 04:30:13,995 DEBUG org.springframework.boot.web.servlet.ServletContextInitializerBeans [restartedMain] Mapping filters: springSecurityFilterChain urls=[/*], characterEncodingFilter urls=[/*], hiddenHttpMethodFilter urls=[/*], formContentFilter urls=[/*], requestContextFilter urls=[/*], jwtAuthorizationTokenFilter urls=[/*]
+2019-10-27 04:30:13,996 DEBUG org.springframework.boot.web.servlet.ServletContextInitializerBeans [restartedMain] Mapping servlets: dispatcherServlet urls=[/]
+2019-10-27 04:30:14,083 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2019-10-27 04:30:14,721 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [restartedMain] 14 mappings in 'requestMappingHandlerMapping'
+2019-10-27 04:30:14,846 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-10-27 04:30:14,961 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/auth', POST], []
+2019-10-27 04:30:14,961 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/auth'], []
+2019-10-27 04:30:14,961 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/register'], []
+2019-10-27 04:30:14,962 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/*.html'], []
+2019-10-27 04:30:14,962 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/*.ico'], []
+2019-10-27 04:30:14,962 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='csrf'], []
+2019-10-27 04:30:14,963 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/webjars/springfox-swagger-ui/**'], []
+2019-10-27 04:30:14,963 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/v2/**'], []
+2019-10-27 04:30:14,963 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/swagger-resources/**'], []
+2019-10-27 04:30:15,003 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@14f71117, org.springframework.security.web.context.SecurityContextPersistenceFilter@3a9c6641, org.springframework.security.web.header.HeaderWriterFilter@48593caf, org.springframework.web.filter.CorsFilter@5c22252a, org.springframework.security.web.authentication.logout.LogoutFilter@24931600, com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter@6eecfaf5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1261d1ee, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2f9fffeb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@61bf172c, org.springframework.security.web.session.SessionManagementFilter@34fb8e28, org.springframework.security.web.access.ExceptionTranslationFilter@616a6b62, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@32858f4f]
+2019-10-27 04:30:15,063 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [restartedMain] Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-10-27 04:30:15,195 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-27 04:30:15,223 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [restartedMain] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-10-27 04:30:15,303 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [restartedMain] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-10-27 04:30:15,314 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [restartedMain] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-10-27 04:30:15,501 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2019-10-27 04:30:15,520 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2019-10-27 04:30:15,560 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2019-10-27 04:30:16,011 INFO com.zhacky.ninjapos.config.SeederConfig [restartedMain] Seeding users table...
+2019-10-27 04:30:16,012 INFO com.zhacky.ninjapos.config.SeederConfig [restartedMain] Check if admin user exists ...
+2019-10-27 04:30:16,287 INFO com.zhacky.ninjapos.config.SeederConfig [restartedMain] Creating products ...
+2019-10-27 04:30:16,307 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8081"]
+2019-10-27 04:30:16,325 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path '/v1'
+2019-10-27 04:30:16,329 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started NinjaposApplication in 9.192 seconds (JVM running for 10.564)
+2019-10-27 04:31:13,618 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8081-exec-3] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-27 04:31:13,618 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-3] Initializing Servlet 'dispatcherServlet'
+2019-10-27 04:31:13,619 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8081-exec-3] Detected StandardServletMultipartResolver
+2019-10-27 04:31:13,632 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-3] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2019-10-27 04:31:13,633 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-3] Completed initialization in 14 ms
+2019-10-27 04:31:13,650 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-3] processing authentication for 'http://localhost:8081/v1/swagger-ui.html'
+2019-10-27 04:31:13,650 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-3] couldn't find bearer string, ignoring header
+2019-10-27 04:31:13,653 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-3] GET "/v1/swagger-ui.html", parameters={}
+2019-10-27 04:31:13,667 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-3] Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-10-27 04:31:13,680 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-3] Completed 200 OK
+2019-10-27 04:31:13,701 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-4] processing authentication for 'http://localhost:8081/v1/webjars/springfox-swagger-ui/swagger-ui.css'
+2019-10-27 04:31:13,701 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-4] couldn't find bearer string, ignoring header
+2019-10-27 04:31:13,702 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-4] GET "/v1/webjars/springfox-swagger-ui/swagger-ui.css?v=2.9.2", parameters={masked}
+2019-10-27 04:31:13,702 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-6] processing authentication for 'http://localhost:8081/v1/webjars/springfox-swagger-ui/swagger-ui-bundle.js'
+2019-10-27 04:31:13,703 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-6] couldn't find bearer string, ignoring header
+2019-10-27 04:31:13,703 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-6] GET "/v1/webjars/springfox-swagger-ui/swagger-ui-bundle.js?v=2.9.2", parameters={masked}
+2019-10-27 04:31:13,705 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-5] processing authentication for 'http://localhost:8081/v1/webjars/springfox-swagger-ui/springfox.css'
+2019-10-27 04:31:13,705 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-4] Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-10-27 04:31:13,706 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-5] couldn't find bearer string, ignoring header
+2019-10-27 04:31:13,706 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-5] GET "/v1/webjars/springfox-swagger-ui/springfox.css?v=2.9.2", parameters={masked}
+2019-10-27 04:31:13,719 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-7] processing authentication for 'http://localhost:8081/v1/webjars/springfox-swagger-ui/springfox.js'
+2019-10-27 04:31:13,720 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-7] couldn't find bearer string, ignoring header
+2019-10-27 04:31:13,721 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-6] Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-10-27 04:31:13,721 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-8] processing authentication for 'http://localhost:8081/v1/webjars/springfox-swagger-ui/swagger-ui-standalone-preset.js'
+2019-10-27 04:31:13,722 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-8] couldn't find bearer string, ignoring header
+2019-10-27 04:31:13,722 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-8] GET "/v1/webjars/springfox-swagger-ui/swagger-ui-standalone-preset.js?v=2.9.2", parameters={masked}
+2019-10-27 04:31:13,724 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-7] GET "/v1/webjars/springfox-swagger-ui/springfox.js?v=2.9.2", parameters={masked}
+2019-10-27 04:31:13,727 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-8] Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-10-27 04:31:13,719 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-5] Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-10-27 04:31:13,730 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-7] Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-10-27 04:31:13,738 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-5] Completed 200 OK
+2019-10-27 04:31:13,740 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-4] Completed 200 OK
+2019-10-27 04:31:13,752 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-7] Completed 200 OK
+2019-10-27 04:31:13,764 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-8] Completed 200 OK
+2019-10-27 04:31:13,784 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-6] Completed 200 OK
+2019-10-27 04:31:14,245 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-9] processing authentication for 'http://localhost:8081/v1/swagger-resources/configuration/ui'
+2019-10-27 04:31:14,246 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-9] couldn't find bearer string, ignoring header
+2019-10-27 04:31:14,246 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-9] GET "/v1/swagger-resources/configuration/ui", parameters={}
+2019-10-27 04:31:14,251 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-9] Mapped to public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2019-10-27 04:31:14,258 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-10] processing authentication for 'http://localhost:8081/v1/webjars/springfox-swagger-ui/favicon-32x32.png'
+2019-10-27 04:31:14,258 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-10] couldn't find bearer string, ignoring header
+2019-10-27 04:31:14,259 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-10] GET "/v1/webjars/springfox-swagger-ui/favicon-32x32.png?v=2.9.2", parameters={masked}
+2019-10-27 04:31:14,260 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-10] Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-10-27 04:31:14,263 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-10] Completed 200 OK
+2019-10-27 04:31:14,321 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8081-exec-9] Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-10-27 04:31:14,323 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-9] Writing [springfox.documentation.swagger.web.UiConfiguration@45125723]
+2019-10-27 04:31:14,335 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-9] Completed 200 OK
+2019-10-27 04:31:14,343 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-1] processing authentication for 'http://localhost:8081/v1/swagger-resources/configuration/security'
+2019-10-27 04:31:14,343 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-1] couldn't find bearer string, ignoring header
+2019-10-27 04:31:14,344 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-1] GET "/v1/swagger-resources/configuration/security", parameters={}
+2019-10-27 04:31:14,345 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-1] Mapped to public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2019-10-27 04:31:14,355 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8081-exec-1] Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-10-27 04:31:14,357 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-1] Writing [springfox.documentation.swagger.web.SecurityConfiguration@b9afe16]
+2019-10-27 04:31:14,358 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Completed 200 OK
+2019-10-27 04:31:14,363 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-2] processing authentication for 'http://localhost:8081/v1/swagger-resources'
+2019-10-27 04:31:14,363 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-2] couldn't find bearer string, ignoring header
+2019-10-27 04:31:14,364 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-2] GET "/v1/swagger-resources", parameters={}
+2019-10-27 04:31:14,364 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-2] Mapped to public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2019-10-27 04:31:14,369 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8081-exec-2] Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-10-27 04:31:14,369 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-2] Writing [[springfox.documentation.swagger.web.SwaggerResource@4d87ed7d]]
+2019-10-27 04:31:14,376 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-2] Completed 200 OK
+2019-10-27 04:31:14,429 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-3] processing authentication for 'http://localhost:8081/v1/v2/api-docs'
+2019-10-27 04:31:14,430 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-3] couldn't find bearer string, ignoring header
+2019-10-27 04:31:14,430 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-3] GET "/v1/v2/api-docs", parameters={}
+2019-10-27 04:31:14,435 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-5] processing authentication for 'http://localhost:8081/v1/'
+2019-10-27 04:31:14,435 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-5] couldn't find bearer string, ignoring header
+2019-10-27 04:31:14,459 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-5] "ERROR" dispatch for GET "/v1/error", parameters={}
+2019-10-27 04:31:14,461 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-5] Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-10-27 04:31:14,467 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8081-exec-5] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-10-27 04:31:14,468 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-5] Writing [{timestamp=Sun Oct 27 04:31:14 PST 2019, status=401, error=Unauthorized, message=Unauthorized, path= (truncated)...]
+2019-10-27 04:31:14,490 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-5] Exiting from "ERROR" dispatch, status 401
+2019-10-27 04:31:14,551 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-4] processing authentication for 'http://localhost:8081/v1/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-700.woff2'
+2019-10-27 04:31:14,551 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-4] couldn't find bearer string, ignoring header
+2019-10-27 04:31:14,552 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-4] GET "/v1/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-700.woff2", parameters={}
+2019-10-27 04:31:14,555 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-4] Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-10-27 04:31:14,568 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-4] Completed 200 OK
+2019-10-27 04:31:14,570 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-7] processing authentication for 'http://localhost:8081/v1/csrf'
+2019-10-27 04:31:14,570 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-7] couldn't find bearer string, ignoring header
+2019-10-27 04:31:14,573 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-4] processing authentication for 'http://localhost:8081/v1/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-regular.woff2'
+2019-10-27 04:31:14,574 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-4] couldn't find bearer string, ignoring header
+2019-10-27 04:31:14,574 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-4] GET "/v1/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-regular.woff2", parameters={}
+2019-10-27 04:31:14,575 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-7] "ERROR" dispatch for GET "/v1/error", parameters={}
+2019-10-27 04:31:14,577 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-7] Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-10-27 04:31:14,578 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8081-exec-7] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-10-27 04:31:14,581 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-4] Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-10-27 04:31:14,588 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-7] Writing [{timestamp=Sun Oct 27 04:31:14 PST 2019, status=401, error=Unauthorized, message=Unauthorized, path= (truncated)...]
+2019-10-27 04:31:14,606 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-4] Completed 200 OK
+2019-10-27 04:31:14,607 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-7] Exiting from "ERROR" dispatch, status 401
+2019-10-27 04:31:14,699 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8081-exec-3] Using 'application/json', given [application/json, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-10-27 04:31:14,699 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-3] Writing [springfox.documentation.spring.web.json.Json@66988a5f]
+2019-10-27 04:31:14,704 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-3] Completed 200 OK
+2019-10-27 04:31:14,963 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-8] processing authentication for 'http://localhost:8081/v1/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-700.woff2'
+2019-10-27 04:31:14,963 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-8] couldn't find bearer string, ignoring header
+2019-10-27 04:31:14,964 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-8] GET "/v1/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-700.woff2", parameters={}
+2019-10-27 04:31:14,966 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-8] Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-10-27 04:31:14,969 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-6] processing authentication for 'http://localhost:8081/v1/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-300.woff2'
+2019-10-27 04:31:14,970 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-6] couldn't find bearer string, ignoring header
+2019-10-27 04:31:14,970 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-6] GET "/v1/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-300.woff2", parameters={}
+2019-10-27 04:31:14,972 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-6] Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-10-27 04:31:14,989 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-6] Completed 200 OK
+2019-10-27 04:31:14,993 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-8] Completed 200 OK
+2019-10-27 04:31:21,161 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-10] processing authentication for 'http://localhost:8081/v1/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-600.woff2'
+2019-10-27 04:31:21,161 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-10] couldn't find bearer string, ignoring header
+2019-10-27 04:31:21,162 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-10] GET "/v1/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-600.woff2", parameters={}
+2019-10-27 04:31:21,163 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-10] Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-10-27 04:31:21,167 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-10] Completed 200 OK
+2019-10-27 04:31:24,361 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-9] processing authentication for 'http://localhost:8081/v1/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-regular.woff2'
+2019-10-27 04:31:24,361 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-9] couldn't find bearer string, ignoring header
+2019-10-27 04:31:24,362 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-9] GET "/v1/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-regular.woff2", parameters={}
+2019-10-27 04:31:24,363 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-9] Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-10-27 04:31:24,370 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-9] Completed 200 OK
+2019-10-27 04:32:16,751 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-26] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-27 04:32:16,758 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-26] Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-27 04:32:16,759 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [Thread-26] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-10-27 04:32:16,774 INFO com.zaxxer.hikari.HikariDataSource [Thread-26] HikariPool-1 - Shutdown initiated...
+2019-10-27 04:32:16,782 INFO com.zaxxer.hikari.HikariDataSource [Thread-26] HikariPool-1 - Shutdown completed.
+2019-10-27 04:42:27,819 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting NinjaposApplication on work with PID 5152 (/home/zhack/Repository/POS/NinjaPOS/target/classes started by zhack in /home/zhack/Repository/POS/NinjaPOS)
+2019-10-27 04:42:27,827 INFO org.springframework.boot.SpringApplication [restartedMain] The following profiles are active: development
+2019-10-27 04:42:29,665 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-27 04:42:29,750 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 78ms. Found 5 repository interfaces.
+2019-10-27 04:42:30,188 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$697e8614] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-27 04:42:30,234 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$22c4e4e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-27 04:42:30,241 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-27 04:42:30,244 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@7cde4730' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-27 04:42:30,249 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$2700f100] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-27 04:42:30,255 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-27 04:42:30,576 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2019-10-27 04:42:30,591 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8081"]
+2019-10-27 04:42:30,624 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2019-10-27 04:42:30,625 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-10-27 04:42:30,726 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2019-10-27 04:42:30,727 DEBUG org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-10-27 04:42:30,727 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2697 ms
+2019-10-27 04:42:30,938 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2019-10-27 04:42:31,185 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2019-10-27 04:42:31,229 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-27 04:42:31,276 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate Core {5.3.11.Final}
+2019-10-27 04:42:31,278 INFO org.hibernate.cfg.Environment [restartedMain] HHH000205: Loaded properties from resource hibernate.properties: {hibernate.bytecode.use_reflection_optimizer=false}
+2019-10-27 04:42:31,400 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-27 04:42:31,520 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-27 04:42:32,386 INFO org.hibernate.tool.schema.internal.SchemaCreatorImpl [restartedMain] HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@4fe3fb9e'
+2019-10-27 04:42:32,390 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-27 04:42:32,742 DEBUG org.springframework.boot.web.servlet.ServletContextInitializerBeans [restartedMain] Mapping filters: springSecurityFilterChain urls=[/*], characterEncodingFilter urls=[/*], hiddenHttpMethodFilter urls=[/*], formContentFilter urls=[/*], requestContextFilter urls=[/*], jwtAuthorizationTokenFilter urls=[/*]
+2019-10-27 04:42:32,743 DEBUG org.springframework.boot.web.servlet.ServletContextInitializerBeans [restartedMain] Mapping servlets: dispatcherServlet urls=[/]
+2019-10-27 04:42:32,846 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2019-10-27 04:42:33,422 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [restartedMain] 15 mappings in 'requestMappingHandlerMapping'
+2019-10-27 04:42:33,527 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-10-27 04:42:33,623 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/auth', POST], []
+2019-10-27 04:42:33,623 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/auth'], []
+2019-10-27 04:42:33,624 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/register'], []
+2019-10-27 04:42:33,624 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/*.html'], []
+2019-10-27 04:42:33,625 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/*.ico'], []
+2019-10-27 04:42:33,625 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='csrf'], []
+2019-10-27 04:42:33,625 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/webjars/springfox-swagger-ui/**'], []
+2019-10-27 04:42:33,626 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/v2/**'], []
+2019-10-27 04:42:33,626 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/swagger-resources/**'], []
+2019-10-27 04:42:33,665 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6ae49ba4, org.springframework.security.web.context.SecurityContextPersistenceFilter@7b604ee7, org.springframework.security.web.header.HeaderWriterFilter@741a9d7a, org.springframework.web.filter.CorsFilter@7528c96e, org.springframework.security.web.authentication.logout.LogoutFilter@4a048d0, com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter@44788220, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6f885a5c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7770e0f8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@637b7ba6, org.springframework.security.web.session.SessionManagementFilter@75d074a9, org.springframework.security.web.access.ExceptionTranslationFilter@42523b28, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2adb5db4]
+2019-10-27 04:42:33,728 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [restartedMain] Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-10-27 04:42:33,853 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-27 04:42:33,874 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [restartedMain] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-10-27 04:42:33,925 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [restartedMain] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-10-27 04:42:33,938 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [restartedMain] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-10-27 04:42:34,082 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2019-10-27 04:42:34,098 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2019-10-27 04:42:34,137 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2019-10-27 04:42:34,594 INFO com.zhacky.ninjapos.config.SeederConfig [restartedMain] Seeding users table...
+2019-10-27 04:42:34,594 INFO com.zhacky.ninjapos.config.SeederConfig [restartedMain] Check if admin user exists ...
+2019-10-27 04:42:34,840 INFO com.zhacky.ninjapos.config.SeederConfig [restartedMain] Creating products ...
+2019-10-27 04:42:34,861 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8081"]
+2019-10-27 04:42:34,877 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path '/v1'
+2019-10-27 04:42:34,880 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started NinjaposApplication in 7.928 seconds (JVM running for 8.884)
+2019-10-27 04:42:49,757 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-27 04:42:49,757 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Initializing Servlet 'dispatcherServlet'
+2019-10-27 04:42:49,758 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8081-exec-1] Detected StandardServletMultipartResolver
+2019-10-27 04:42:49,768 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2019-10-27 04:42:49,768 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Completed initialization in 10 ms
+2019-10-27 04:42:49,783 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-1] processing authentication for 'http://localhost:8081/v1/swagger-ui.html'
+2019-10-27 04:42:49,784 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-1] couldn't find bearer string, ignoring header
+2019-10-27 04:42:49,786 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-1] GET "/v1/swagger-ui.html", parameters={}
+2019-10-27 04:42:49,800 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-1] Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-10-27 04:42:49,805 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Completed 304 NOT_MODIFIED
+2019-10-27 04:42:50,372 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-2] processing authentication for 'http://localhost:8081/v1/swagger-resources/configuration/ui'
+2019-10-27 04:42:50,373 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-2] couldn't find bearer string, ignoring header
+2019-10-27 04:42:50,374 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-2] GET "/v1/swagger-resources/configuration/ui", parameters={}
+2019-10-27 04:42:50,379 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-2] Mapped to public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2019-10-27 04:42:50,385 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-3] processing authentication for 'http://localhost:8081/v1/webjars/springfox-swagger-ui/favicon-32x32.png'
+2019-10-27 04:42:50,385 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-3] couldn't find bearer string, ignoring header
+2019-10-27 04:42:50,385 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-3] GET "/v1/webjars/springfox-swagger-ui/favicon-32x32.png?v=2.9.2", parameters={masked}
+2019-10-27 04:42:50,396 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-3] Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-10-27 04:42:50,428 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-3] Completed 200 OK
+2019-10-27 04:42:50,491 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8081-exec-2] Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-10-27 04:42:50,493 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-2] Writing [springfox.documentation.swagger.web.UiConfiguration@267026e4]
+2019-10-27 04:42:50,514 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-2] Completed 200 OK
+2019-10-27 04:42:50,519 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-4] processing authentication for 'http://localhost:8081/v1/swagger-resources/configuration/security'
+2019-10-27 04:42:50,520 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-4] couldn't find bearer string, ignoring header
+2019-10-27 04:42:50,520 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-4] GET "/v1/swagger-resources/configuration/security", parameters={}
+2019-10-27 04:42:50,521 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-4] Mapped to public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2019-10-27 04:42:50,533 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8081-exec-4] Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-10-27 04:42:50,534 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-4] Writing [springfox.documentation.swagger.web.SecurityConfiguration@66adf88d]
+2019-10-27 04:42:50,535 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-4] Completed 200 OK
+2019-10-27 04:42:50,541 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-5] processing authentication for 'http://localhost:8081/v1/swagger-resources'
+2019-10-27 04:42:50,542 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-5] couldn't find bearer string, ignoring header
+2019-10-27 04:42:50,542 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-5] GET "/v1/swagger-resources", parameters={}
+2019-10-27 04:42:50,543 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-5] Mapped to public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2019-10-27 04:42:50,547 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8081-exec-5] Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-10-27 04:42:50,547 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-5] Writing [[springfox.documentation.swagger.web.SwaggerResource@308d74ad]]
+2019-10-27 04:42:50,553 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-5] Completed 200 OK
+2019-10-27 04:42:50,653 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-6] processing authentication for 'http://localhost:8081/v1/v2/api-docs'
+2019-10-27 04:42:50,657 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-6] couldn't find bearer string, ignoring header
+2019-10-27 04:42:50,657 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-6] GET "/v1/v2/api-docs", parameters={}
+2019-10-27 04:42:50,669 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-7] processing authentication for 'http://localhost:8081/v1/'
+2019-10-27 04:42:50,669 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-7] couldn't find bearer string, ignoring header
+2019-10-27 04:42:50,718 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-7] "ERROR" dispatch for GET "/v1/error", parameters={}
+2019-10-27 04:42:50,720 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-7] Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-10-27 04:42:50,734 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8081-exec-7] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-10-27 04:42:50,734 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-7] Writing [{timestamp=Sun Oct 27 04:42:50 PST 2019, status=401, error=Unauthorized, message=Unauthorized, path= (truncated)...]
+2019-10-27 04:42:50,748 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-7] Exiting from "ERROR" dispatch, status 401
+2019-10-27 04:42:50,756 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-8] processing authentication for 'http://localhost:8081/v1/csrf'
+2019-10-27 04:42:50,757 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-8] couldn't find bearer string, ignoring header
+2019-10-27 04:42:50,762 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-8] "ERROR" dispatch for GET "/v1/error", parameters={}
+2019-10-27 04:42:50,763 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-8] Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-10-27 04:42:50,765 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8081-exec-8] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-10-27 04:42:50,771 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-8] Writing [{timestamp=Sun Oct 27 04:42:50 PST 2019, status=401, error=Unauthorized, message=Unauthorized, path= (truncated)...]
+2019-10-27 04:42:50,774 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-8] Exiting from "ERROR" dispatch, status 401
+2019-10-27 04:42:50,915 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8081-exec-6] Using 'application/json', given [application/json, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-10-27 04:42:50,916 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-6] Writing [springfox.documentation.spring.web.json.Json@d6c1b75]
+2019-10-27 04:42:50,919 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-6] Completed 200 OK
+2019-10-27 04:43:06,773 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-9] processing authentication for 'http://localhost:8081/v1/orders'
+2019-10-27 04:43:06,774 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-9] couldn't find bearer string, ignoring header
+2019-10-27 04:43:06,775 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-9] "ERROR" dispatch for GET "/v1/error", parameters={}
+2019-10-27 04:43:06,777 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-9] Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-10-27 04:43:06,778 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8081-exec-9] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-10-27 04:43:06,779 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-9] Writing [{timestamp=Sun Oct 27 04:43:06 PST 2019, status=401, error=Unauthorized, message=Unauthorized, path= (truncated)...]
+2019-10-27 04:43:06,781 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-9] Exiting from "ERROR" dispatch, status 401
+2019-10-27 04:43:06,863 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-10] processing authentication for 'http://localhost:8081/v1/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-600.woff2'
+2019-10-27 04:43:06,863 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-10] couldn't find bearer string, ignoring header
+2019-10-27 04:43:06,864 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-10] GET "/v1/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-600.woff2", parameters={}
+2019-10-27 04:43:06,867 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-10] Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-10-27 04:43:06,873 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-10] Completed 200 OK
+2019-10-27 05:16:59,067 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-25] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-27 05:16:59,075 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-25] Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-27 05:16:59,076 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [Thread-25] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-10-27 05:16:59,111 INFO com.zaxxer.hikari.HikariDataSource [Thread-25] HikariPool-1 - Shutdown initiated...
+2019-10-27 05:16:59,139 INFO com.zaxxer.hikari.HikariDataSource [Thread-25] HikariPool-1 - Shutdown completed.
+2019-10-27 05:17:05,119 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting NinjaposApplication on work with PID 5974 (/home/zhack/Repository/POS/NinjaPOS/target/classes started by zhack in /home/zhack/Repository/POS/NinjaPOS)
+2019-10-27 05:17:05,125 INFO org.springframework.boot.SpringApplication [restartedMain] The following profiles are active: development
+2019-10-27 05:17:06,823 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-27 05:17:06,925 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 95ms. Found 5 repository interfaces.
+2019-10-27 05:17:07,436 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5c7175b2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-27 05:17:07,479 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$f51f3dec] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-27 05:17:07,487 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-27 05:17:07,490 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@40a0eee3' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-27 05:17:07,495 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$19f3e09e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-27 05:17:07,499 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-27 05:17:07,813 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2019-10-27 05:17:07,829 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8081"]
+2019-10-27 05:17:07,841 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2019-10-27 05:17:07,842 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-10-27 05:17:07,933 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2019-10-27 05:17:07,933 DEBUG org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-10-27 05:17:07,934 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2723 ms
+2019-10-27 05:17:08,159 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2019-10-27 05:17:08,403 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2019-10-27 05:17:08,450 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-27 05:17:08,505 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate Core {5.3.11.Final}
+2019-10-27 05:17:08,507 INFO org.hibernate.cfg.Environment [restartedMain] HHH000205: Loaded properties from resource hibernate.properties: {hibernate.bytecode.use_reflection_optimizer=false}
+2019-10-27 05:17:08,627 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-27 05:17:08,746 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-27 05:17:09,720 INFO org.hibernate.tool.schema.internal.SchemaCreatorImpl [restartedMain] HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@63257030'
+2019-10-27 05:17:09,725 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-27 05:17:10,088 DEBUG org.springframework.boot.web.servlet.ServletContextInitializerBeans [restartedMain] Mapping filters: springSecurityFilterChain urls=[/*], characterEncodingFilter urls=[/*], hiddenHttpMethodFilter urls=[/*], formContentFilter urls=[/*], requestContextFilter urls=[/*], jwtAuthorizationTokenFilter urls=[/*]
+2019-10-27 05:17:10,089 DEBUG org.springframework.boot.web.servlet.ServletContextInitializerBeans [restartedMain] Mapping servlets: dispatcherServlet urls=[/]
+2019-10-27 05:17:10,174 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2019-10-27 05:17:10,774 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [restartedMain] 15 mappings in 'requestMappingHandlerMapping'
+2019-10-27 05:17:10,878 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-10-27 05:17:10,981 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/auth', POST], []
+2019-10-27 05:17:10,981 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/auth'], []
+2019-10-27 05:17:10,982 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/register'], []
+2019-10-27 05:17:10,982 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/*.html'], []
+2019-10-27 05:17:10,982 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/*.ico'], []
+2019-10-27 05:17:10,982 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='csrf'], []
+2019-10-27 05:17:10,983 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/webjars/springfox-swagger-ui/**'], []
+2019-10-27 05:17:10,983 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/v2/**'], []
+2019-10-27 05:17:10,983 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/swagger-resources/**'], []
+2019-10-27 05:17:11,023 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@28eca402, org.springframework.security.web.context.SecurityContextPersistenceFilter@5c9a89c5, org.springframework.security.web.header.HeaderWriterFilter@80bc87c, org.springframework.web.filter.CorsFilter@22dc5212, org.springframework.security.web.authentication.logout.LogoutFilter@6990a6bf, com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter@46e8bd38, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@62f9d8dd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@514e5523, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@64acd322, org.springframework.security.web.session.SessionManagementFilter@3909f83c, org.springframework.security.web.access.ExceptionTranslationFilter@3329a0b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@644e9a4]
+2019-10-27 05:17:11,085 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [restartedMain] Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-10-27 05:17:11,214 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-27 05:17:11,247 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [restartedMain] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-10-27 05:17:11,307 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [restartedMain] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-10-27 05:17:11,317 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [restartedMain] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-10-27 05:17:11,470 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2019-10-27 05:17:11,489 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2019-10-27 05:17:11,530 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2019-10-27 05:17:11,961 INFO com.zhacky.ninjapos.config.SeederConfig [restartedMain] Seeding users table...
+2019-10-27 05:17:11,961 INFO com.zhacky.ninjapos.config.SeederConfig [restartedMain] Check if admin user exists ...
+2019-10-27 05:17:12,225 INFO com.zhacky.ninjapos.config.SeederConfig [restartedMain] Creating products ...
+2019-10-27 05:17:12,246 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8081"]
+2019-10-27 05:17:12,264 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path '/v1'
+2019-10-27 05:17:12,269 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started NinjaposApplication in 7.856 seconds (JVM running for 8.863)
+2019-10-27 05:18:08,034 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-27 05:18:08,034 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Initializing Servlet 'dispatcherServlet'
+2019-10-27 05:18:08,035 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8081-exec-1] Detected StandardServletMultipartResolver
+2019-10-27 05:18:08,050 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2019-10-27 05:18:08,051 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Completed initialization in 16 ms
+2019-10-27 05:18:08,065 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-1] processing authentication for 'http://localhost:8081/v1/swagger-ui.html'
+2019-10-27 05:18:08,065 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-1] couldn't find bearer string, ignoring header
+2019-10-27 05:18:08,067 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-1] GET "/v1/swagger-ui.html", parameters={}
+2019-10-27 05:18:08,079 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-1] Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-10-27 05:18:08,083 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Completed 304 NOT_MODIFIED
+2019-10-27 05:18:08,392 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-2] processing authentication for 'http://localhost:8081/v1/swagger-resources/configuration/ui'
+2019-10-27 05:18:08,392 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-2] couldn't find bearer string, ignoring header
+2019-10-27 05:18:08,393 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-2] GET "/v1/swagger-resources/configuration/ui", parameters={}
+2019-10-27 05:18:08,399 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-2] Mapped to public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2019-10-27 05:18:08,406 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-3] processing authentication for 'http://localhost:8081/v1/webjars/springfox-swagger-ui/favicon-32x32.png'
+2019-10-27 05:18:08,407 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-3] couldn't find bearer string, ignoring header
+2019-10-27 05:18:08,407 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-3] GET "/v1/webjars/springfox-swagger-ui/favicon-32x32.png?v=2.9.2", parameters={masked}
+2019-10-27 05:18:08,417 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-3] Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-10-27 05:18:08,460 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-3] Completed 200 OK
+2019-10-27 05:18:08,520 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8081-exec-2] Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-10-27 05:18:08,522 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-2] Writing [springfox.documentation.swagger.web.UiConfiguration@60f51bb7]
+2019-10-27 05:18:08,540 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-2] Completed 200 OK
+2019-10-27 05:18:08,546 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-4] processing authentication for 'http://localhost:8081/v1/swagger-resources/configuration/security'
+2019-10-27 05:18:08,546 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-4] couldn't find bearer string, ignoring header
+2019-10-27 05:18:08,547 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-4] GET "/v1/swagger-resources/configuration/security", parameters={}
+2019-10-27 05:18:08,548 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-4] Mapped to public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2019-10-27 05:18:08,560 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8081-exec-4] Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-10-27 05:18:08,561 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-4] Writing [springfox.documentation.swagger.web.SecurityConfiguration@22b3fe65]
+2019-10-27 05:18:08,562 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-4] Completed 200 OK
+2019-10-27 05:18:08,567 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-5] processing authentication for 'http://localhost:8081/v1/swagger-resources'
+2019-10-27 05:18:08,567 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-5] couldn't find bearer string, ignoring header
+2019-10-27 05:18:08,567 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-5] GET "/v1/swagger-resources", parameters={}
+2019-10-27 05:18:08,568 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-5] Mapped to public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2019-10-27 05:18:08,572 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8081-exec-5] Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-10-27 05:18:08,572 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-5] Writing [[springfox.documentation.swagger.web.SwaggerResource@e2a6702]]
+2019-10-27 05:18:08,577 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-5] Completed 200 OK
+2019-10-27 05:18:08,679 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-6] processing authentication for 'http://localhost:8081/v1/v2/api-docs'
+2019-10-27 05:18:08,679 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-6] couldn't find bearer string, ignoring header
+2019-10-27 05:18:08,680 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-6] GET "/v1/v2/api-docs", parameters={}
+2019-10-27 05:18:08,692 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-7] processing authentication for 'http://localhost:8081/v1/'
+2019-10-27 05:18:08,693 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-7] couldn't find bearer string, ignoring header
+2019-10-27 05:18:08,736 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-7] "ERROR" dispatch for GET "/v1/error", parameters={}
+2019-10-27 05:18:08,738 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-7] Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-10-27 05:18:08,754 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8081-exec-7] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-10-27 05:18:08,755 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-7] Writing [{timestamp=Sun Oct 27 05:18:08 PST 2019, status=401, error=Unauthorized, message=Unauthorized, path= (truncated)...]
+2019-10-27 05:18:08,772 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-7] Exiting from "ERROR" dispatch, status 401
+2019-10-27 05:18:08,779 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-8] processing authentication for 'http://localhost:8081/v1/csrf'
+2019-10-27 05:18:08,780 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-8] couldn't find bearer string, ignoring header
+2019-10-27 05:18:08,782 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-8] "ERROR" dispatch for GET "/v1/error", parameters={}
+2019-10-27 05:18:08,784 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-8] Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-10-27 05:18:08,789 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8081-exec-8] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-10-27 05:18:08,790 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-8] Writing [{timestamp=Sun Oct 27 05:18:08 PST 2019, status=401, error=Unauthorized, message=Unauthorized, path= (truncated)...]
+2019-10-27 05:18:08,792 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-8] Exiting from "ERROR" dispatch, status 401
+2019-10-27 05:18:08,958 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8081-exec-6] Using 'application/json', given [application/json, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-10-27 05:18:08,959 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-6] Writing [springfox.documentation.spring.web.json.Json@5158a382]
+2019-10-27 05:18:08,961 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-6] Completed 200 OK
+2019-10-27 05:18:53,616 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-9] processing authentication for 'http://localhost:8081/v1/auth'
+2019-10-27 05:18:53,617 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-9] couldn't find bearer string, ignoring header
+2019-10-27 05:18:53,618 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-9] POST "/v1/auth", parameters={}
+2019-10-27 05:18:53,619 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-9] Mapped to public org.springframework.http.ResponseEntity<?> com.zhacky.ninjapos.controller.AuthController.createAuthenticationToken(com.zhacky.ninjapos.data.request.JwtAuthenticationRequest) throws com.zhacky.ninjapos.exception.AuthenticationException
+2019-10-27 05:18:53,658 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-9] Read "application/json;charset=UTF-8" to [com.zhacky.ninjapos.data.request.JwtAuthenticationRequest@50a847d]
+2019-10-27 05:18:53,828 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [http-nio-8081-exec-9] HHH000397: Using ASTQueryTranslatorFactory
+2019-10-27 05:18:54,339 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8081-exec-9] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-10-27 05:18:54,339 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-9] Writing [com.zhacky.ninjapos.data.response.JwtAuthenticationResponse@34dd07a9]
+2019-10-27 05:18:54,340 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-9] Completed 200 OK
+2019-10-27 05:19:17,261 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-1] processing authentication for 'http://localhost:8081/v1/swagger-resources/configuration/ui'
+2019-10-27 05:19:17,261 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-1] couldn't find bearer string, ignoring header
+2019-10-27 05:19:17,262 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-1] GET "/v1/swagger-resources/configuration/ui", parameters={}
+2019-10-27 05:19:17,263 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-1] Mapped to public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2019-10-27 05:19:17,266 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8081-exec-1] Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-10-27 05:19:17,266 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-1] Writing [springfox.documentation.swagger.web.UiConfiguration@f84be36]
+2019-10-27 05:19:17,269 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Completed 200 OK
+2019-10-27 05:19:17,280 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-3] processing authentication for 'http://localhost:8081/v1/swagger-resources/configuration/security'
+2019-10-27 05:19:17,281 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-3] couldn't find bearer string, ignoring header
+2019-10-27 05:19:17,281 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-3] GET "/v1/swagger-resources/configuration/security", parameters={}
+2019-10-27 05:19:17,282 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-3] Mapped to public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2019-10-27 05:19:17,283 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8081-exec-3] Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-10-27 05:19:17,284 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-3] Writing [springfox.documentation.swagger.web.SecurityConfiguration@4471a24c]
+2019-10-27 05:19:17,286 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-3] Completed 200 OK
+2019-10-27 05:19:17,296 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-2] processing authentication for 'http://localhost:8081/v1/swagger-resources'
+2019-10-27 05:19:17,297 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-2] couldn't find bearer string, ignoring header
+2019-10-27 05:19:17,297 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-2] GET "/v1/swagger-resources", parameters={}
+2019-10-27 05:19:17,298 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-2] Mapped to public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2019-10-27 05:19:17,299 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8081-exec-2] Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-10-27 05:19:17,300 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-2] Writing [[springfox.documentation.swagger.web.SwaggerResource@767d6632]]
+2019-10-27 05:19:17,301 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-2] Completed 200 OK
+2019-10-27 05:19:17,381 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-4] processing authentication for 'http://localhost:8081/v1/v2/api-docs'
+2019-10-27 05:19:17,382 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-4] couldn't find bearer string, ignoring header
+2019-10-27 05:19:17,382 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-4] GET "/v1/v2/api-docs", parameters={}
+2019-10-27 05:19:17,389 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-5] processing authentication for 'http://localhost:8081/v1/'
+2019-10-27 05:19:17,389 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-5] couldn't find bearer string, ignoring header
+2019-10-27 05:19:17,390 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-5] "ERROR" dispatch for GET "/v1/error", parameters={}
+2019-10-27 05:19:17,391 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-5] Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-10-27 05:19:17,396 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8081-exec-5] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-10-27 05:19:17,397 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-5] Writing [{timestamp=Sun Oct 27 05:19:17 PST 2019, status=401, error=Unauthorized, message=Unauthorized, path= (truncated)...]
+2019-10-27 05:19:17,399 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-5] Exiting from "ERROR" dispatch, status 401
+2019-10-27 05:19:17,407 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-7] processing authentication for 'http://localhost:8081/v1/csrf'
+2019-10-27 05:19:17,408 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-7] couldn't find bearer string, ignoring header
+2019-10-27 05:19:17,409 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-7] "ERROR" dispatch for GET "/v1/error", parameters={}
+2019-10-27 05:19:17,410 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-7] Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-10-27 05:19:17,411 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8081-exec-7] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-10-27 05:19:17,411 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-7] Writing [{timestamp=Sun Oct 27 05:19:17 PST 2019, status=401, error=Unauthorized, message=Unauthorized, path= (truncated)...]
+2019-10-27 05:19:17,413 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-7] Exiting from "ERROR" dispatch, status 401
+2019-10-27 05:19:17,426 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8081-exec-4] Using 'application/json', given [application/json, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-10-27 05:19:17,426 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-4] Writing [springfox.documentation.spring.web.json.Json@44c148f1]
+2019-10-27 05:19:17,428 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-4] Completed 200 OK
+2019-10-27 05:25:03,403 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-9] processing authentication for 'http://localhost:8081/v1/orders'
+2019-10-27 05:25:03,403 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-9] couldn't find bearer string, ignoring header
+2019-10-27 05:25:03,405 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-9] "ERROR" dispatch for GET "/v1/error", parameters={}
+2019-10-27 05:25:03,406 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-9] Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-10-27 05:25:03,407 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8081-exec-9] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-10-27 05:25:03,408 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-9] Writing [{timestamp=Sun Oct 27 05:25:03 PST 2019, status=401, error=Unauthorized, message=Unauthorized, path= (truncated)...]
+2019-10-27 05:25:03,410 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-9] Exiting from "ERROR" dispatch, status 401
+2019-10-27 05:25:17,938 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-10] processing authentication for 'http://localhost:8081/v1/orders'
+2019-10-27 05:25:17,939 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-10] couldn't find bearer string, ignoring header
+2019-10-27 05:25:17,940 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-10] "ERROR" dispatch for GET "/v1/error", parameters={}
+2019-10-27 05:25:17,942 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-10] Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-10-27 05:25:17,943 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8081-exec-10] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-10-27 05:25:17,944 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-10] Writing [{timestamp=Sun Oct 27 05:25:17 PST 2019, status=401, error=Unauthorized, message=Unauthorized, path= (truncated)...]
+2019-10-27 05:25:17,947 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-10] Exiting from "ERROR" dispatch, status 401
+2019-10-27 05:25:34,614 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-1] processing authentication for 'http://localhost:8081/v1/orders'
+2019-10-27 05:25:34,615 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-1] couldn't find bearer string, ignoring header
+2019-10-27 05:25:34,616 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-1] "ERROR" dispatch for GET "/v1/error", parameters={}
+2019-10-27 05:25:34,618 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-1] Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-10-27 05:25:34,619 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8081-exec-1] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-10-27 05:25:34,620 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-1] Writing [{timestamp=Sun Oct 27 05:25:34 PST 2019, status=401, error=Unauthorized, message=Unauthorized, path= (truncated)...]
+2019-10-27 05:25:34,622 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Exiting from "ERROR" dispatch, status 401
+2019-10-27 05:31:53,706 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-25] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-27 05:31:53,715 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-25] Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-27 05:31:53,716 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [Thread-25] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-10-27 05:31:53,734 INFO com.zaxxer.hikari.HikariDataSource [Thread-25] HikariPool-1 - Shutdown initiated...
+2019-10-27 05:31:53,744 INFO com.zaxxer.hikari.HikariDataSource [Thread-25] HikariPool-1 - Shutdown completed.
+2019-10-27 05:31:58,551 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting NinjaposApplication on work with PID 6386 (/home/zhack/Repository/POS/NinjaPOS/target/classes started by zhack in /home/zhack/Repository/POS/NinjaPOS)
+2019-10-27 05:31:58,562 INFO org.springframework.boot.SpringApplication [restartedMain] The following profiles are active: development
+2019-10-27 05:32:00,189 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-27 05:32:00,280 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 84ms. Found 5 repository interfaces.
+2019-10-27 05:32:00,726 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3fec5a40] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-27 05:32:00,768 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$d89a227a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-27 05:32:00,775 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-27 05:32:00,777 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@46317c31' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-27 05:32:00,782 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$fd6ec52c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-27 05:32:00,787 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-27 05:32:01,096 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2019-10-27 05:32:01,112 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8081"]
+2019-10-27 05:32:01,127 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2019-10-27 05:32:01,128 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-10-27 05:32:01,222 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2019-10-27 05:32:01,222 DEBUG org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-10-27 05:32:01,222 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2553 ms
+2019-10-27 05:32:01,427 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2019-10-27 05:32:01,686 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2019-10-27 05:32:01,732 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-27 05:32:01,783 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate Core {5.3.11.Final}
+2019-10-27 05:32:01,785 INFO org.hibernate.cfg.Environment [restartedMain] HHH000205: Loaded properties from resource hibernate.properties: {hibernate.bytecode.use_reflection_optimizer=false}
+2019-10-27 05:32:01,912 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-27 05:32:02,039 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-27 05:32:02,916 INFO org.hibernate.tool.schema.internal.SchemaCreatorImpl [restartedMain] HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@454cb82b'
+2019-10-27 05:32:02,920 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-27 05:32:03,303 DEBUG org.springframework.boot.web.servlet.ServletContextInitializerBeans [restartedMain] Mapping filters: springSecurityFilterChain urls=[/*], characterEncodingFilter urls=[/*], hiddenHttpMethodFilter urls=[/*], formContentFilter urls=[/*], requestContextFilter urls=[/*], jwtAuthorizationTokenFilter urls=[/*]
+2019-10-27 05:32:03,304 DEBUG org.springframework.boot.web.servlet.ServletContextInitializerBeans [restartedMain] Mapping servlets: dispatcherServlet urls=[/]
+2019-10-27 05:32:03,390 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2019-10-27 05:32:04,011 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [restartedMain] 15 mappings in 'requestMappingHandlerMapping'
+2019-10-27 05:32:04,116 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-10-27 05:32:04,224 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/auth', POST], []
+2019-10-27 05:32:04,224 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/auth'], []
+2019-10-27 05:32:04,225 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/register'], []
+2019-10-27 05:32:04,225 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/*.html'], []
+2019-10-27 05:32:04,225 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/*.ico'], []
+2019-10-27 05:32:04,226 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='csrf'], []
+2019-10-27 05:32:04,226 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/webjars/springfox-swagger-ui/**'], []
+2019-10-27 05:32:04,226 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/v2/**'], []
+2019-10-27 05:32:04,226 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/swagger-resources/**'], []
+2019-10-27 05:32:04,260 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@67688cc3, org.springframework.security.web.context.SecurityContextPersistenceFilter@34a9c743, org.springframework.security.web.header.HeaderWriterFilter@126ffd14, org.springframework.web.filter.CorsFilter@30cae768, org.springframework.security.web.authentication.logout.LogoutFilter@7384d10a, com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter@53c7495d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@337017e8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6ca2d5ec, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6fece2e9, org.springframework.security.web.session.SessionManagementFilter@473931b4, org.springframework.security.web.access.ExceptionTranslationFilter@dc70a99, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@b9bdc46]
+2019-10-27 05:32:04,321 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [restartedMain] Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-10-27 05:32:04,448 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-27 05:32:04,470 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [restartedMain] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-10-27 05:32:04,522 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [restartedMain] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-10-27 05:32:04,534 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [restartedMain] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-10-27 05:32:04,674 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2019-10-27 05:32:04,690 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2019-10-27 05:32:04,737 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2019-10-27 05:32:05,192 INFO com.zhacky.ninjapos.config.SeederConfig [restartedMain] Seeding users table...
+2019-10-27 05:32:05,192 INFO com.zhacky.ninjapos.config.SeederConfig [restartedMain] Check if admin user exists ...
+2019-10-27 05:32:05,461 INFO com.zhacky.ninjapos.config.SeederConfig [restartedMain] Creating products ...
+2019-10-27 05:32:05,484 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8081"]
+2019-10-27 05:32:05,506 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path ''
+2019-10-27 05:32:05,510 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started NinjaposApplication in 7.789 seconds (JVM running for 8.661)
+2019-10-27 05:32:14,436 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-27 05:32:14,437 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Initializing Servlet 'dispatcherServlet'
+2019-10-27 05:32:14,438 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8081-exec-1] Detected StandardServletMultipartResolver
+2019-10-27 05:32:14,449 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2019-10-27 05:32:14,449 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Completed initialization in 12 ms
+2019-10-27 05:32:14,466 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-1] processing authentication for 'http://localhost:8081/swagger-ui.html'
+2019-10-27 05:32:14,467 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-1] couldn't find bearer string, ignoring header
+2019-10-27 05:32:14,470 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-1] GET "/swagger-ui.html", parameters={}
+2019-10-27 05:32:14,480 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-1] Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-10-27 05:32:14,495 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Completed 200 OK
+2019-10-27 05:32:14,519 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-2] processing authentication for 'http://localhost:8081/webjars/springfox-swagger-ui/swagger-ui.css'
+2019-10-27 05:32:14,519 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-2] couldn't find bearer string, ignoring header
+2019-10-27 05:32:14,520 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-2] GET "/webjars/springfox-swagger-ui/swagger-ui.css?v=2.9.2", parameters={masked}
+2019-10-27 05:32:14,520 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-3] processing authentication for 'http://localhost:8081/webjars/springfox-swagger-ui/swagger-ui-bundle.js'
+2019-10-27 05:32:14,521 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-3] couldn't find bearer string, ignoring header
+2019-10-27 05:32:14,521 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-3] GET "/webjars/springfox-swagger-ui/swagger-ui-bundle.js?v=2.9.2", parameters={masked}
+2019-10-27 05:32:14,526 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-4] processing authentication for 'http://localhost:8081/webjars/springfox-swagger-ui/swagger-ui-standalone-preset.js'
+2019-10-27 05:32:14,527 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-4] couldn't find bearer string, ignoring header
+2019-10-27 05:32:14,529 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-4] GET "/webjars/springfox-swagger-ui/swagger-ui-standalone-preset.js?v=2.9.2", parameters={masked}
+2019-10-27 05:32:14,532 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-5] processing authentication for 'http://localhost:8081/webjars/springfox-swagger-ui/springfox.css'
+2019-10-27 05:32:14,532 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-6] processing authentication for 'http://localhost:8081/webjars/springfox-swagger-ui/springfox.js'
+2019-10-27 05:32:14,533 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-5] couldn't find bearer string, ignoring header
+2019-10-27 05:32:14,533 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-6] couldn't find bearer string, ignoring header
+2019-10-27 05:32:14,533 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-5] GET "/webjars/springfox-swagger-ui/springfox.css?v=2.9.2", parameters={masked}
+2019-10-27 05:32:14,533 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-6] GET "/webjars/springfox-swagger-ui/springfox.js?v=2.9.2", parameters={masked}
+2019-10-27 05:32:14,523 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-2] Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-10-27 05:32:14,536 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-6] Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-10-27 05:32:14,536 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-5] Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-10-27 05:32:14,544 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-4] Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-10-27 05:32:14,544 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-3] Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-10-27 05:32:14,569 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-5] Completed 304 NOT_MODIFIED
+2019-10-27 05:32:14,575 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-2] Completed 200 OK
+2019-10-27 05:32:14,579 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-6] Completed 200 OK
+2019-10-27 05:32:14,587 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-4] Completed 200 OK
+2019-10-27 05:32:14,628 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-3] Completed 200 OK
+2019-10-27 05:32:15,122 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-7] processing authentication for 'http://localhost:8081/swagger-resources/configuration/ui'
+2019-10-27 05:32:15,123 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-7] couldn't find bearer string, ignoring header
+2019-10-27 05:32:15,124 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-7] GET "/swagger-resources/configuration/ui", parameters={}
+2019-10-27 05:32:15,128 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-7] Mapped to public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2019-10-27 05:32:15,132 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-8] processing authentication for 'http://localhost:8081/webjars/springfox-swagger-ui/favicon-32x32.png'
+2019-10-27 05:32:15,133 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-8] couldn't find bearer string, ignoring header
+2019-10-27 05:32:15,134 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-8] GET "/webjars/springfox-swagger-ui/favicon-32x32.png?v=2.9.2", parameters={masked}
+2019-10-27 05:32:15,145 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-8] Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-10-27 05:32:15,146 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-8] Completed 304 NOT_MODIFIED
+2019-10-27 05:32:15,207 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8081-exec-7] Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-10-27 05:32:15,209 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-7] Writing [springfox.documentation.swagger.web.UiConfiguration@706026e9]
+2019-10-27 05:32:15,222 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-7] Completed 200 OK
+2019-10-27 05:32:15,230 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-9] processing authentication for 'http://localhost:8081/swagger-resources/configuration/security'
+2019-10-27 05:32:15,230 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-9] couldn't find bearer string, ignoring header
+2019-10-27 05:32:15,231 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-9] GET "/swagger-resources/configuration/security", parameters={}
+2019-10-27 05:32:15,231 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-9] Mapped to public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2019-10-27 05:32:15,239 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8081-exec-9] Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-10-27 05:32:15,240 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-9] Writing [springfox.documentation.swagger.web.SecurityConfiguration@37627b9]
+2019-10-27 05:32:15,241 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-9] Completed 200 OK
+2019-10-27 05:32:15,248 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-10] processing authentication for 'http://localhost:8081/swagger-resources'
+2019-10-27 05:32:15,249 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-10] couldn't find bearer string, ignoring header
+2019-10-27 05:32:15,249 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-10] GET "/swagger-resources", parameters={}
+2019-10-27 05:32:15,250 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-10] Mapped to public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2019-10-27 05:32:15,253 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8081-exec-10] Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-10-27 05:32:15,254 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-10] Writing [[springfox.documentation.swagger.web.SwaggerResource@315cc918]]
+2019-10-27 05:32:15,260 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-10] Completed 200 OK
+2019-10-27 05:32:15,321 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-1] processing authentication for 'http://localhost:8081/v2/api-docs'
+2019-10-27 05:32:15,321 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-1] couldn't find bearer string, ignoring header
+2019-10-27 05:32:15,321 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-1] GET "/v2/api-docs", parameters={}
+2019-10-27 05:32:15,339 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-5] processing authentication for 'http://localhost:8081/'
+2019-10-27 05:32:15,340 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-5] couldn't find bearer string, ignoring header
+2019-10-27 05:32:15,371 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-6] processing authentication for 'http://localhost:8081/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-700.woff2'
+2019-10-27 05:32:15,371 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-2] processing authentication for 'http://localhost:8081/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-regular.woff2'
+2019-10-27 05:32:15,371 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-6] couldn't find bearer string, ignoring header
+2019-10-27 05:32:15,371 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-2] couldn't find bearer string, ignoring header
+2019-10-27 05:32:15,372 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-2] GET "/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-regular.woff2", parameters={}
+2019-10-27 05:32:15,374 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-2] Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-10-27 05:32:15,375 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-5] "ERROR" dispatch for GET "/error", parameters={}
+2019-10-27 05:32:15,372 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-6] GET "/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-700.woff2", parameters={}
+2019-10-27 05:32:15,384 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-6] Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-10-27 05:32:15,387 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-5] Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-10-27 05:32:15,398 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-6] Completed 304 NOT_MODIFIED
+2019-10-27 05:32:15,398 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-2] Completed 200 OK
+2019-10-27 05:32:15,421 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8081-exec-5] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-10-27 05:32:15,422 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-5] Writing [{timestamp=Sun Oct 27 05:32:15 PST 2019, status=401, error=Unauthorized, message=Unauthorized, path= (truncated)...]
+2019-10-27 05:32:15,433 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-5] Exiting from "ERROR" dispatch, status 401
+2019-10-27 05:32:15,446 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-4] processing authentication for 'http://localhost:8081/csrf'
+2019-10-27 05:32:15,447 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-4] couldn't find bearer string, ignoring header
+2019-10-27 05:32:15,448 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-4] "ERROR" dispatch for GET "/error", parameters={}
+2019-10-27 05:32:15,450 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-4] Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-10-27 05:32:15,452 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8081-exec-4] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-10-27 05:32:15,453 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-4] Writing [{timestamp=Sun Oct 27 05:32:15 PST 2019, status=401, error=Unauthorized, message=Unauthorized, path= (truncated)...]
+2019-10-27 05:32:15,455 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-4] Exiting from "ERROR" dispatch, status 401
+2019-10-27 05:32:15,580 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8081-exec-1] Using 'application/json', given [application/json, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-10-27 05:32:15,581 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-1] Writing [springfox.documentation.spring.web.json.Json@6b3eb34d]
+2019-10-27 05:32:15,583 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Completed 200 OK
+2019-10-27 05:32:15,729 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-8] processing authentication for 'http://localhost:8081/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-300.woff2'
+2019-10-27 05:32:15,729 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-3] processing authentication for 'http://localhost:8081/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-700.woff2'
+2019-10-27 05:32:15,729 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-8] couldn't find bearer string, ignoring header
+2019-10-27 05:32:15,729 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-3] couldn't find bearer string, ignoring header
+2019-10-27 05:32:15,729 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-8] GET "/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-300.woff2", parameters={}
+2019-10-27 05:32:15,729 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-3] GET "/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-700.woff2", parameters={}
+2019-10-27 05:32:15,730 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-3] Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-10-27 05:32:15,731 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-8] Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-10-27 05:32:15,735 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-8] Completed 304 NOT_MODIFIED
+2019-10-27 05:32:15,740 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-3] Completed 200 OK
+2019-10-27 05:32:25,024 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-7] processing authentication for 'http://localhost:8081/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-600.woff2'
+2019-10-27 05:32:25,025 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-7] couldn't find bearer string, ignoring header
+2019-10-27 05:32:25,025 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-7] GET "/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-600.woff2", parameters={}
+2019-10-27 05:32:25,026 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-7] Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-10-27 05:32:25,027 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-7] Completed 304 NOT_MODIFIED
+2019-10-27 05:32:30,037 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-9] processing authentication for 'http://localhost:8081/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-regular.woff2'
+2019-10-27 05:32:30,037 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-9] couldn't find bearer string, ignoring header
+2019-10-27 05:32:30,038 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-9] GET "/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-regular.woff2", parameters={}
+2019-10-27 05:32:30,039 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-9] Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-10-27 05:32:30,042 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-9] Completed 304 NOT_MODIFIED
+2019-10-27 05:33:00,070 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-10] processing authentication for 'http://localhost:8081/auth'
+2019-10-27 05:33:00,070 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-10] couldn't find bearer string, ignoring header
+2019-10-27 05:33:00,071 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-10] POST "/auth", parameters={}
+2019-10-27 05:33:00,072 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-10] Mapped to public org.springframework.http.ResponseEntity<?> com.zhacky.ninjapos.controller.AuthController.createAuthenticationToken(com.zhacky.ninjapos.data.request.JwtAuthenticationRequest) throws com.zhacky.ninjapos.exception.AuthenticationException
+2019-10-27 05:33:00,116 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-10] Read "application/json;charset=UTF-8" to [com.zhacky.ninjapos.data.request.JwtAuthenticationRequest@349a1409]
+2019-10-27 05:33:00,280 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [http-nio-8081-exec-10] HHH000397: Using ASTQueryTranslatorFactory
+2019-10-27 05:33:00,786 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8081-exec-10] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-10-27 05:33:00,786 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-10] Writing [com.zhacky.ninjapos.data.response.JwtAuthenticationResponse@6636118c]
+2019-10-27 05:33:00,787 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-10] Completed 200 OK
+2019-10-27 05:33:00,836 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-2] processing authentication for 'http://localhost:8081/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-600.woff2'
+2019-10-27 05:33:00,837 WARN com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-2] couldn't find bearer string, ignoring header
+2019-10-27 05:33:00,837 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-2] GET "/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-600.woff2", parameters={}
+2019-10-27 05:33:00,838 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-2] Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-10-27 05:33:00,840 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-2] Completed 304 NOT_MODIFIED
+2019-10-27 05:33:33,309 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-8] processing authentication for 'http://localhost:8081/orders'
+2019-10-27 05:33:33,347 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-8] authorized user 'admin', setting security context
+2019-10-27 05:33:33,348 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-8] GET "/orders", parameters={}
+2019-10-27 05:33:33,349 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-8] Mapped to public org.springframework.http.ResponseEntity<?> com.zhacky.ninjapos.controller.SalesController.getOrders()
+2019-10-27 05:33:33,360 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8081-exec-8] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-10-27 05:33:33,361 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-8] Writing [[]]
+2019-10-27 05:33:33,364 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-8] Completed 200 OK
+2019-10-27 05:34:36,003 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-7] processing authentication for 'http://localhost:8081/products'
+2019-10-27 05:34:36,020 INFO com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter [http-nio-8081-exec-7] authorized user 'admin', setting security context
+2019-10-27 05:34:36,021 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-7] GET "/products", parameters={}
+2019-10-27 05:34:36,022 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-7] Mapped to public org.springframework.http.ResponseEntity<?> com.zhacky.ninjapos.controller.ProductController.getProducts()
+2019-10-27 05:34:36,036 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8081-exec-7] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-10-27 05:34:36,039 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-7] Writing [[
+<u>Product Information</u>
+ID: 1
+Name: FISH PATER
+Code: 200
+Description: Cup rice with fish toppin (truncated)...]
+2019-10-27 05:34:36,055 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-7] Completed 200 OK
+2019-10-27 05:35:07,312 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-25] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-27 05:35:07,320 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-25] Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-27 05:35:07,320 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [Thread-25] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-10-27 05:35:07,333 INFO com.zaxxer.hikari.HikariDataSource [Thread-25] HikariPool-1 - Shutdown initiated...
+2019-10-27 05:35:07,342 INFO com.zaxxer.hikari.HikariDataSource [Thread-25] HikariPool-1 - Shutdown completed.

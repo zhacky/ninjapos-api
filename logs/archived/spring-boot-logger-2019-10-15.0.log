@@ -1,0 +1,253 @@
+2019-10-15 18:44:07,341 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductControllerTest on work with PID 11144 (started by zhack in /home/zhack/Repository/POS/NinjaPOS)
+2019-10-15 18:44:07,355 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: test
+2019-10-15 18:44:07,498 DEBUG org.springframework.context.support.AbstractApplicationContext [main] Refreshing org.springframework.web.context.support.GenericWebApplicationContext@2bdd8394
+2019-10-15 18:44:09,742 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-15 18:44:09,970 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 206ms. Found 4 repository interfaces.
+2019-10-15 18:44:11,075 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ccd750ac] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-15 18:44:11,177 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$658518e6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-15 18:44:11,195 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-15 18:44:11,198 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@6dd1c3ed' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-15 18:44:11,210 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$8a59bb98] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-15 18:44:11,218 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-15 18:44:11,756 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2019-10-15 18:44:12,268 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2019-10-15 18:44:12,411 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-15 18:44:12,566 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.11.Final}
+2019-10-15 18:44:12,572 INFO org.hibernate.cfg.Environment [main] HHH000205: Loaded properties from resource hibernate.properties: {hibernate.bytecode.use_reflection_optimizer=false}
+2019-10-15 18:44:12,875 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-15 18:44:13,138 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-10-15 18:44:14,583 INFO org.hibernate.tool.schema.internal.SchemaCreatorImpl [main] HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@4afdfc0f'
+2019-10-15 18:44:14,588 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-15 18:44:17,010 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 11 mappings in 'requestMappingHandlerMapping'
+2019-10-15 18:44:17,355 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-10-15 18:44:17,642 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/auth', POST], []
+2019-10-15 18:44:17,644 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/auth'], []
+2019-10-15 18:44:17,645 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/register'], []
+2019-10-15 18:44:17,646 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/*.html'], []
+2019-10-15 18:44:17,647 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/*.ico'], []
+2019-10-15 18:44:17,648 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='csrf'], []
+2019-10-15 18:44:17,649 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/webjars/springfox-swagger-ui/**'], []
+2019-10-15 18:44:17,650 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/v2/**'], []
+2019-10-15 18:44:17,654 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/swagger-resources/**'], []
+2019-10-15 18:44:17,822 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4552f905, org.springframework.security.web.context.SecurityContextPersistenceFilter@12e3f4ae, org.springframework.security.web.header.HeaderWriterFilter@7a274521, org.springframework.web.filter.CorsFilter@646d58cd, org.springframework.security.web.authentication.logout.LogoutFilter@2f0e7fa8, com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter@5950054d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@785d6a98, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2d7aa291, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@388e4c25, org.springframework.security.web.session.SessionManagementFilter@35841d6, org.springframework.security.web.access.ExceptionTranslationFilter@335cdd2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5a8b42a3]
+2019-10-15 18:44:18,397 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-10-15 18:44:18,797 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-15 18:44:18,855 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-10-15 18:44:19,086 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-10-15 18:44:19,117 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-10-15 18:44:19,709 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2019-10-15 18:44:19,750 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2019-10-15 18:44:19,801 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2019-10-15 18:44:20,081 INFO com.zhacky.ninjapos.config.SeederConfig [main] Seeding users table...
+2019-10-15 18:44:20,082 INFO com.zhacky.ninjapos.config.SeederConfig [main] Check if admin user exists ...
+2019-10-15 18:44:20,446 INFO com.zhacky.ninjapos.config.SeederConfig [main] Creating products ...
+2019-10-15 18:44:20,481 INFO org.springframework.boot.StartupInfoLogger [main] Started ProductControllerTest in 14.514 seconds (JVM running for 17.95)
+2019-10-15 18:44:20,892 DEBUG org.springframework.context.support.AbstractApplicationContext [Thread-5] Closing org.springframework.web.context.support.GenericWebApplicationContext@2bdd8394, started on Tue Oct 15 18:44:07 PST 2019
+2019-10-15 18:44:20,915 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-5] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-15 18:44:20,923 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-15 18:44:20,925 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [Thread-5] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-10-15 18:44:20,952 WARN org.springframework.beans.factory.support.DisposableBeanAdapter [Thread-5] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-199]
+2019-10-15 18:44:20,955 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+2019-10-15 18:44:20,960 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
+2019-10-15 18:47:00,762 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductControllerTest on work with PID 11302 (started by zhack in /home/zhack/Repository/POS/NinjaPOS)
+2019-10-15 18:47:00,766 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: test
+2019-10-15 18:47:00,849 DEBUG org.springframework.context.support.AbstractApplicationContext [main] Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7e70bd39
+2019-10-15 18:47:03,607 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-15 18:47:03,941 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 274ms. Found 4 repository interfaces.
+2019-10-15 18:47:06,522 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9d7f4908] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-15 18:47:06,755 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$362d1142] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-15 18:47:06,790 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-15 18:47:06,797 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@45a1d057' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-15 18:47:06,835 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$5b01b3f4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-15 18:47:06,876 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-15 18:47:08,381 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2019-10-15 18:47:09,215 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2019-10-15 18:47:09,620 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-15 18:47:09,913 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.11.Final}
+2019-10-15 18:47:09,922 INFO org.hibernate.cfg.Environment [main] HHH000205: Loaded properties from resource hibernate.properties: {hibernate.bytecode.use_reflection_optimizer=false}
+2019-10-15 18:47:10,501 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-15 18:47:11,222 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-10-15 18:47:14,398 INFO org.hibernate.tool.schema.internal.SchemaCreatorImpl [main] HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@51c4992e'
+2019-10-15 18:47:14,407 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-15 18:47:17,449 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 11 mappings in 'requestMappingHandlerMapping'
+2019-10-15 18:47:17,862 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-10-15 18:47:18,249 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/auth', POST], []
+2019-10-15 18:47:18,250 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/auth'], []
+2019-10-15 18:47:18,250 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/register'], []
+2019-10-15 18:47:18,251 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/*.html'], []
+2019-10-15 18:47:18,251 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/*.ico'], []
+2019-10-15 18:47:18,252 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='csrf'], []
+2019-10-15 18:47:18,252 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/webjars/springfox-swagger-ui/**'], []
+2019-10-15 18:47:18,252 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/v2/**'], []
+2019-10-15 18:47:18,253 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/swagger-resources/**'], []
+2019-10-15 18:47:18,459 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@8bd9d08, org.springframework.security.web.context.SecurityContextPersistenceFilter@78a7fccd, org.springframework.security.web.header.HeaderWriterFilter@4598961d, org.springframework.web.filter.CorsFilter@189f3ccd, org.springframework.security.web.authentication.logout.LogoutFilter@261b27db, com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter@367fbb28, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5d3a238, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5b01b3f8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2eb0932c, org.springframework.security.web.session.SessionManagementFilter@48619f15, org.springframework.security.web.access.ExceptionTranslationFilter@2162598, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@34a482d0]
+2019-10-15 18:47:19,152 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-10-15 18:47:19,570 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-15 18:47:19,651 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-10-15 18:47:19,780 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-10-15 18:47:19,805 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-10-15 18:47:20,321 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2019-10-15 18:47:20,365 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2019-10-15 18:47:20,432 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2019-10-15 18:47:20,765 INFO com.zhacky.ninjapos.config.SeederConfig [main] Seeding users table...
+2019-10-15 18:47:20,765 INFO com.zhacky.ninjapos.config.SeederConfig [main] Check if admin user exists ...
+2019-10-15 18:47:21,190 INFO com.zhacky.ninjapos.config.SeederConfig [main] Creating products ...
+2019-10-15 18:47:21,222 INFO org.springframework.boot.StartupInfoLogger [main] Started ProductControllerTest in 21.647 seconds (JVM running for 25.703)
+2019-10-15 18:48:28,010 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46s110ms761µs513ns).
+2019-10-15 18:48:28,101 DEBUG org.springframework.context.support.AbstractApplicationContext [Thread-3] Closing org.springframework.web.context.support.GenericWebApplicationContext@7e70bd39, started on Tue Oct 15 18:47:00 PST 2019
+2019-10-15 18:48:28,110 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-3] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-15 18:48:28,121 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-3] Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-15 18:48:28,124 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [Thread-3] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-10-15 18:48:28,167 WARN org.springframework.beans.factory.support.DisposableBeanAdapter [Thread-3] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-199]
+2019-10-15 18:48:28,168 INFO com.zaxxer.hikari.HikariDataSource [Thread-3] HikariPool-1 - Shutdown initiated...
+2019-10-15 18:48:28,180 INFO com.zaxxer.hikari.HikariDataSource [Thread-3] HikariPool-1 - Shutdown completed.
+2019-10-15 18:49:14,478 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductControllerTest on work with PID 11388 (started by zhack in /home/zhack/Repository/POS/NinjaPOS)
+2019-10-15 18:49:14,481 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: test
+2019-10-15 18:49:14,670 DEBUG org.springframework.context.support.AbstractApplicationContext [main] Refreshing org.springframework.web.context.support.GenericWebApplicationContext@50f6ac94
+2019-10-15 18:49:16,576 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-15 18:49:16,732 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 138ms. Found 4 repository interfaces.
+2019-10-15 18:49:17,559 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2dc97fdc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-15 18:49:17,670 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$c6774816] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-15 18:49:17,693 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-15 18:49:17,697 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@895416d' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-15 18:49:17,713 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$eb4beac8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-15 18:49:17,725 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-15 18:49:18,178 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2019-10-15 18:49:18,602 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2019-10-15 18:49:18,744 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-15 18:49:18,865 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.11.Final}
+2019-10-15 18:49:18,870 INFO org.hibernate.cfg.Environment [main] HHH000205: Loaded properties from resource hibernate.properties: {hibernate.bytecode.use_reflection_optimizer=false}
+2019-10-15 18:49:19,094 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-15 18:49:19,337 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-10-15 18:49:20,677 INFO org.hibernate.tool.schema.internal.SchemaCreatorImpl [main] HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@586728e8'
+2019-10-15 18:49:20,682 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-15 18:49:22,498 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 11 mappings in 'requestMappingHandlerMapping'
+2019-10-15 18:49:23,321 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-10-15 18:49:23,506 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/auth', POST], []
+2019-10-15 18:49:23,507 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/auth'], []
+2019-10-15 18:49:23,508 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/register'], []
+2019-10-15 18:49:23,508 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/*.html'], []
+2019-10-15 18:49:23,509 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/*.ico'], []
+2019-10-15 18:49:23,509 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='csrf'], []
+2019-10-15 18:49:23,509 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/webjars/springfox-swagger-ui/**'], []
+2019-10-15 18:49:23,510 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/v2/**'], []
+2019-10-15 18:49:23,510 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/swagger-resources/**'], []
+2019-10-15 18:49:23,702 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@39ead1b7, org.springframework.security.web.context.SecurityContextPersistenceFilter@2904bc56, org.springframework.security.web.header.HeaderWriterFilter@13137835, org.springframework.web.filter.CorsFilter@27ec74a3, org.springframework.security.web.authentication.logout.LogoutFilter@4b56b517, com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter@1be3f8f8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@69b1e8f8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7793b55d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@35ff072c, org.springframework.security.web.session.SessionManagementFilter@1dc9f5ad, org.springframework.security.web.access.ExceptionTranslationFilter@46e6458d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@96be1ae]
+2019-10-15 18:49:24,225 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-10-15 18:49:24,572 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-15 18:49:24,615 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-10-15 18:49:24,737 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-10-15 18:49:24,755 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-10-15 18:49:25,234 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2019-10-15 18:49:25,280 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2019-10-15 18:49:25,349 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2019-10-15 18:49:25,641 INFO com.zhacky.ninjapos.config.SeederConfig [main] Seeding users table...
+2019-10-15 18:49:25,642 INFO com.zhacky.ninjapos.config.SeederConfig [main] Check if admin user exists ...
+2019-10-15 18:49:26,084 INFO com.zhacky.ninjapos.config.SeederConfig [main] Creating products ...
+2019-10-15 18:49:26,111 INFO org.springframework.boot.StartupInfoLogger [main] Started ProductControllerTest in 12.854 seconds (JVM running for 14.848)
+2019-10-15 18:49:26,519 INFO com.zhacky.ninjapos.controller.tests.ProductControllerTest [main] 
+Product updated: 
+<u>Product Information</u>
+ID: 1
+Name: Mock Product
+Code: 200
+Description: null
+Price: 25.00
+2019-10-15 18:49:26,533 DEBUG org.springframework.context.support.AbstractApplicationContext [Thread-3] Closing org.springframework.web.context.support.GenericWebApplicationContext@50f6ac94, started on Tue Oct 15 18:49:14 PST 2019
+2019-10-15 18:49:26,540 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-3] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-15 18:49:26,550 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-3] Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-15 18:49:26,551 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [Thread-3] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-10-15 18:49:26,579 WARN org.springframework.beans.factory.support.DisposableBeanAdapter [Thread-3] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-199]
+2019-10-15 18:49:26,580 INFO com.zaxxer.hikari.HikariDataSource [Thread-3] HikariPool-1 - Shutdown initiated...
+2019-10-15 18:49:26,587 INFO com.zaxxer.hikari.HikariDataSource [Thread-3] HikariPool-1 - Shutdown completed.
+2019-10-15 18:50:33,130 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductControllerTest on work with PID 11497 (started by zhack in /home/zhack/Repository/POS/NinjaPOS)
+2019-10-15 18:50:33,139 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: test
+2019-10-15 18:50:33,385 DEBUG org.springframework.context.support.AbstractApplicationContext [main] Refreshing org.springframework.web.context.support.GenericWebApplicationContext@28194a50
+2019-10-15 18:50:35,888 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-15 18:50:36,112 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 182ms. Found 4 repository interfaces.
+2019-10-15 18:50:37,584 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$355fb5f6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-15 18:50:37,735 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$ce0d7e30] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-15 18:50:37,756 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-15 18:50:37,760 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@6edcad64' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-15 18:50:37,773 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$f2e220e2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-15 18:50:37,808 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-15 18:50:38,669 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2019-10-15 18:50:39,019 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2019-10-15 18:50:39,232 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-15 18:50:39,354 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.11.Final}
+2019-10-15 18:50:39,360 INFO org.hibernate.cfg.Environment [main] HHH000205: Loaded properties from resource hibernate.properties: {hibernate.bytecode.use_reflection_optimizer=false}
+2019-10-15 18:50:39,633 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-15 18:50:39,925 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-10-15 18:50:41,472 INFO org.hibernate.tool.schema.internal.SchemaCreatorImpl [main] HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@786ff0ea'
+2019-10-15 18:50:41,478 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-15 18:50:44,802 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 11 mappings in 'requestMappingHandlerMapping'
+2019-10-15 18:50:45,274 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-10-15 18:50:45,599 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/auth', POST], []
+2019-10-15 18:50:45,600 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/auth'], []
+2019-10-15 18:50:45,601 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/register'], []
+2019-10-15 18:50:45,602 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/*.html'], []
+2019-10-15 18:50:45,603 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/*.ico'], []
+2019-10-15 18:50:45,603 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='csrf'], []
+2019-10-15 18:50:45,604 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/webjars/springfox-swagger-ui/**'], []
+2019-10-15 18:50:45,605 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/v2/**'], []
+2019-10-15 18:50:45,606 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/swagger-resources/**'], []
+2019-10-15 18:50:45,782 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@57a5b03, org.springframework.security.web.context.SecurityContextPersistenceFilter@614d7fbf, org.springframework.security.web.header.HeaderWriterFilter@5e9ea380, org.springframework.web.filter.CorsFilter@5649f55, org.springframework.security.web.authentication.logout.LogoutFilter@3595086b, com.zhacky.ninjapos.config.filter.JwtAuthorizationTokenFilter@4fd37449, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1d8dbf10, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@54e94de9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@558127d2, org.springframework.security.web.session.SessionManagementFilter@12e3f4ae, org.springframework.security.web.access.ExceptionTranslationFilter@57515944, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@183ef89a]
+2019-10-15 18:50:46,798 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-10-15 18:50:47,278 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-15 18:50:47,326 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-10-15 18:50:47,504 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-10-15 18:50:47,537 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-10-15 18:50:48,102 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2019-10-15 18:50:48,156 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2019-10-15 18:50:48,236 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2019-10-15 18:50:48,649 INFO com.zhacky.ninjapos.config.SeederConfig [main] Seeding users table...
+2019-10-15 18:50:48,651 INFO com.zhacky.ninjapos.config.SeederConfig [main] Check if admin user exists ...
+2019-10-15 18:50:49,156 INFO com.zhacky.ninjapos.config.SeederConfig [main] Creating products ...
+2019-10-15 18:50:49,191 INFO org.springframework.boot.StartupInfoLogger [main] Started ProductControllerTest in 17.789 seconds (JVM running for 19.928)
+2019-10-15 18:50:49,642 INFO com.zhacky.ninjapos.controller.tests.ProductControllerTest [main] 
+Optional product found: 
+<u>Product Information</u>
+ID: 1
+Name: Mock Product
+Code: 200
+Description: null
+Price: 25.00
+2019-10-15 18:50:49,662 INFO com.zhacky.ninjapos.controller.tests.ProductControllerTest [main] 
+Product updated: 
+<u>Product Information</u>
+ID: 1
+Name: Mock Product
+Code: 200
+Description: null
+Price: 25.00
+2019-10-15 18:50:49,690 INFO com.zhacky.ninjapos.controller.tests.ProductControllerTest [main] 
+Product list: [
+<u>Product Information</u>
+ID: 1
+Name: Mock Product
+Code: 200
+Description: null
+Price: 25.00]
+2019-10-15 18:50:49,709 INFO com.zhacky.ninjapos.controller.tests.ProductControllerTest [main] 
+Product created: 
+<u>Product Information</u>
+ID: 2
+Name: My product
+Code: 
+Description: 
+Price: 25.00
+2019-10-15 18:50:49,716 DEBUG org.springframework.context.support.AbstractApplicationContext [Thread-5] Closing org.springframework.web.context.support.GenericWebApplicationContext@28194a50, started on Tue Oct 15 18:50:33 PST 2019
+2019-10-15 18:50:49,722 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-5] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-15 18:50:49,731 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-15 18:50:49,732 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [Thread-5] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-10-15 18:50:49,821 WARN org.springframework.beans.factory.support.DisposableBeanAdapter [Thread-5] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-199]
+2019-10-15 18:50:49,823 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+2019-10-15 18:50:49,832 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
